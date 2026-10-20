@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=11" />
+  <link rel="stylesheet" href="styles.css?v=12" />
 </head>
 <body>
   <div class="site-wrapper">
@@ -23,6 +23,7 @@
         <a href="#fechas" class="nav-highlight">Fechas</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#lanzamientos">Catálogo</a>
+        <a href="#audiovisual">Audiovisual</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </header>
@@ -30,7 +31,7 @@
     <div class="red-accent-rule" aria-hidden="true"></div>
 
     <main>
-      <!-- 01 // PRÓXIMAS FECHAS (Right at the very top of the page when opening) -->
+      <!-- 01 // PRÓXIMAS FECHAS -->
       <section id="fechas" class="section section-live-top">
         <div class="section-header section-header-compact">
           <span class="section-index"><span class="index-num">01</span> — Próximas fechas</span>
@@ -112,7 +113,7 @@
           </div>
         </div>
 
-        <!-- Full-width Biography ("a lo largo", single unified block) -->
+        <!-- Full-width Biography -->
         <div class="intro-fullwidth">
           <p class="lead-paragraph">
             <strong>Mientras Seamos Nosotros</strong> es una de las bandas emergentes más prometedoras de la escena alternativa de Buenos Aires. Su identidad sonora se refleja en la fuerza emocional que tiñe sus melodías pop rock acompañadas de instrumentales influenciadas por el post-rock y el math rock.
@@ -193,7 +194,7 @@
                   <span class="arrow">↗</span>
                 </a>
                 <a 
-                  href="https://www.youtube.com/@MientrasSeamosNosotros" 
+                  href="https://www.youtube.com/watch?v=55RtG8l1GZI&list=PLeo9kCQdk8-c" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   class="btn-minimal"
@@ -201,30 +202,6 @@
                   <span>YouTube</span>
                   <span class="arrow">↗</span>
                 </a>
-                <button 
-                  type="button" 
-                  class="btn-minimal btn-ghost" 
-                  id="toggle-player-btn"
-                  aria-expanded="false"
-                  aria-controls="spotify-drawer"
-                >
-                  <span id="toggle-player-label">▶ Reproductor web</span>
-                </button>
-              </div>
-
-              <!-- Collapsible Spotify Embed unfolds cleanly below buttons without shifting them -->
-              <div id="spotify-drawer" class="spotify-drawer" hidden>
-                <div class="spotify-embed-container">
-                  <iframe 
-                    src="https://open.spotify.com/embed/album/1bUcaQZMDv5IIR6vUtD4Gl?utm_source=generator&theme=0" 
-                    width="100%" 
-                    height="352" 
-                    frameBorder="0" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                    loading="lazy"
-                    title="Reproductor de Spotify - Mientras Seamos Nosotros">
-                  </iframe>
-                </div>
               </div>
             </div>
           </article>
@@ -287,7 +264,7 @@
                   <span class="arrow">↗</span>
                 </a>
                 <a 
-                  href="https://www.youtube.com/@MientrasSeamosNosotros" 
+                  href="https://www.youtube.com/watch?v=55RtG8l1GZI&list=PLeo9kCQdk8-c" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   class="btn-minimal"
@@ -300,12 +277,99 @@
           </article>
         </div>
       </section>
+
+      <!-- 04 // AUDIOVISUAL (Videoclips & Visualizers) -->
+      <section id="audiovisual" class="section section-visuals">
+        <div class="section-header">
+          <span class="section-index"><span class="index-num">04</span> — Audiovisual</span>
+        </div>
+
+        <div class="visuals-grid">
+          <figure class="visual-card">
+            <a 
+              href="https://www.youtube.com/watch?v=55RtG8l1GZI&list=PLeo9kCQdk8-c" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="visual-frame-link"
+              aria-label="Ver videoclip oficial Mientras Seamos Nosotros en YouTube"
+            >
+              <img 
+                src="assets/img/video-frame-01.jpg" 
+                alt="Frame del videoclip Mientras Seamos Nosotros" 
+                class="visual-frame-img"
+                width="860"
+                height="635"
+                loading="lazy"
+              />
+            </a>
+            <figcaption class="visual-caption">
+              <span>01 — Videoclip oficial</span>
+              <span>Mientras Seamos Nosotros</span>
+            </figcaption>
+          </figure>
+
+          <figure class="visual-card">
+            <a 
+              href="https://www.youtube.com/watch?v=55RtG8l1GZI&list=PLeo9kCQdk8-c" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="visual-frame-link"
+              aria-label="Ver playlist de visualizers del álbum en YouTube"
+            >
+              <img 
+                src="assets/img/video-frame-02.jpg" 
+                alt="Frame de los visualizers analógicos del álbum" 
+                class="visual-frame-img"
+                width="860"
+                height="635"
+                loading="lazy"
+              />
+            </a>
+            <figcaption class="visual-caption">
+              <span>02 — Visualizers (LP completo)</span>
+              <span>Cianotipos, dibujos y pinturas</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="visuals-info">
+          <p class="lead-paragraph">
+            El grupo presenta una fuerte estética visual formada desde lo analógico, utilizando fotografías propias, cianotipos, dibujos y pinturas que el grupo fue creando para acompañar el concepto de su álbum debut. Todos los temas cuentan con su pieza visual: el primer corte con videoclip oficial y el resto del álbum con visualizers.
+          </p>
+
+          <div class="visuals-footer-bar">
+            <div class="visuals-credit">
+              <span>Realización audiovisual por</span>
+              <a 
+                href="https://www.instagram.com/francomontivero__/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="credit-link"
+              >
+                Franco Montivero ↗
+              </a>
+            </div>
+
+            <div class="visuals-actions">
+              <a 
+                href="https://www.youtube.com/watch?v=55RtG8l1GZI&list=PLeo9kCQdk8-c" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-minimal btn-primary"
+              >
+                <span>Ver playlist en YouTube</span>
+                <span class="arrow">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- 04 // CONTACTO / REDES -->
+    <!-- 05 // CONTACTO -->
     <footer id="contacto" class="site-footer">
       <div class="section-header footer-section-header">
-        <span class="section-index"><span class="index-num">04</span> — Contacto</span>
+        <span class="section-index"><span class="index-num">05</span> — Contacto</span>
       </div>
 
       <div class="footer-grid">
@@ -315,20 +379,12 @@
         </div>
 
         <div class="footer-col footer-links">
-          <a href="https://open.spotify.com/intl-es/album/1bUcaQZMDv5IIR6vUtD4Gl" target="_blank" rel="noopener noreferrer" class="btn-minimal">
-            <span>Spotify</span>
-            <span class="arrow">↗</span>
-          </a>
-          <a href="https://music.apple.com/ar/album/mientras-seamos-nosotros/6793165348" target="_blank" rel="noopener noreferrer" class="btn-minimal">
-            <span>Apple Music</span>
-            <span class="arrow">↗</span>
-          </a>
-          <a href="https://www.youtube.com/@MientrasSeamosNosotros" target="_blank" rel="noopener noreferrer" class="btn-minimal">
-            <span>YouTube</span>
-            <span class="arrow">↗</span>
-          </a>
           <a href="https://www.instagram.com/mientrasseamosnosotros" target="_blank" rel="noopener noreferrer" class="btn-minimal">
             <span>Instagram</span>
+            <span class="arrow">↗</span>
+          </a>
+          <a href="mailto:mientrasseamosnosotros@gmail.com" class="btn-minimal">
+            <span>mientrasseamosnosotros@gmail.com</span>
             <span class="arrow">↗</span>
           </a>
         </div>
@@ -337,20 +393,6 @@
   </div>
 
   <script>
-    // Spotify Web Player Drawer Toggle
-    const togglePlayerBtn = document.getElementById('toggle-player-btn');
-    const togglePlayerLabel = document.getElementById('toggle-player-label');
-    const spotifyDrawer = document.getElementById('spotify-drawer');
-
-    if (togglePlayerBtn && spotifyDrawer) {
-      togglePlayerBtn.addEventListener('click', () => {
-        const isExpanded = togglePlayerBtn.getAttribute('aria-expanded') === 'true';
-        togglePlayerBtn.setAttribute('aria-expanded', String(!isExpanded));
-        spotifyDrawer.hidden = isExpanded;
-        togglePlayerLabel.textContent = isExpanded ? '▶ Reproductor web' : '✕ Cerrar reproductor';
-      });
-    }
-
     // Wide Hero Photo Carousel (auto-advances every 4.5s, pauses on hover)
     const carouselEl = document.getElementById('hero-carousel');
     const slides = Array.from(document.querySelectorAll('.carousel-slide'));
